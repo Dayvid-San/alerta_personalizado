@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerta personalizado</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <div id="dialogoverlay"></div>
+        <div id="dialogbox">
+        <div>
+            <div id="dialogboxhead"></div>
+            <div id="dialogboxbody"></div>
+            <div id="dialogboxfoot"></div>
+        </div>
+        </div>
+        <h2>Meus Alerts modificados</h2>
+        <button onclick="alert('Alert Normal')">Alert Normal</button>
+        <button onclick="Alert.render('Alert Modificado')">Custom Modificado</button>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
